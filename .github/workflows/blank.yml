@@ -16,17 +16,138 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  setup:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          sudo apt install hashcat
-          hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'o?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat
+  Builda:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'za?l?l?l?l?l?l?l?l?l'
+  Buildb:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zb?l?l?l?l?l?l?l?l?l'
+  Buildc:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zc?l?l?l?l?l?l?l?l?l'
+  Buildd:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zd?l?l?l?l?l?l?l?l?l'
+  Builde:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'ze?l?l?l?l?l?l?l?l?l'
+  Buildf:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zf?l?l?l?l?l?l?l?l?l'
+  Buildg:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zg?l?l?l?l?l?l?l?l?l'
+  Buildh:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zh?l?l?l?l?l?l?l?l?l'
+  Buildi:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zi?l?l?l?l?l?l?l?l?l'
+  Buildj:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zj?l?l?l?l?l?l?l?l?l'
+  Buildk:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zk?l?l?l?l?l?l?l?l?l'
+  Buildl:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zl?l?l?l?l?l?l?l?l?l'
+  Buildm:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zm?l?l?l?l?l?l?l?l?l'
+  Buildn:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zn?l?l?l?l?l?l?l?l?l'
+  Buildo:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zo?l?l?l?l?l?l?l?l?l'
+  Buildp:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zp?l?l?l?l?l?l?l?l?l'
+  Buildq:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zq?l?l?l?l?l?l?l?l?l'
+  Buildr:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zr?l?l?l?l?l?l?l?l?l'
+  Builds:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zs?l?l?l?l?l?l?l?l?l'
+  Buildt:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zt?l?l?l?l?l?l?l?l?l'
+  Buildu:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zu?l?l?l?l?l?l?l?l?l'
+  Buildv:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'za?l?l?l?l?l?l?l?l?l'
+  Buildw:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zw?l?l?l?l?l?l?l?l?l'
+  Buildx:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zx?l?l?l?l?l?l?l?l?l'
+  Buildy:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zy?l?l?l?l?l?l?l?l?l'
+  Builda:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+    - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zz?l?l?l?l?l?l?l?l?l'
+    
