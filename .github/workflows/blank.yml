@@ -145,7 +145,7 @@ jobs:
     needs: setup
     steps:
     - run: hashcat -m 100 -a 3 -w 4 -O '5c63d83bfbbcb97a341c98c684176a6d908b678f' 'zy?l?l?l?l?l?l?l?l?l'
-  Builda:
+  Buildz:
     runs-on: ubuntu-latest
     needs: setup
     steps:
