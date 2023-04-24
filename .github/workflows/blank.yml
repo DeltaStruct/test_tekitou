@@ -19,105 +19,105 @@ jobs:
   Builda:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'a?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'a?l?l?l?l?l?l?l?l?l?l'
   Buildb:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'b?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'b?l?l?l?l?l?l?l?l?l?l'
   Buildc:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'c?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'c?l?l?l?l?l?l?l?l?l?l'
   Buildd:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'd?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'd?l?l?l?l?l?l?l?l?l?l'
   Builde:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'e?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'e?l?l?l?l?l?l?l?l?l?l'
   Buildf:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'f?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'f?l?l?l?l?l?l?l?l?l?l'
   Buildg:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'g?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'g?l?l?l?l?l?l?l?l?l?l'
   Buildh:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'h?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'h?l?l?l?l?l?l?l?l?l?l'
   Buildi:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'i?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'i?l?l?l?l?l?l?l?l?l?l'
   Buildj:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'j?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'j?l?l?l?l?l?l?l?l?l?l'
   Buildk:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'k?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'k?l?l?l?l?l?l?l?l?l?l'
   Buildl:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'l?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'l?l?l?l?l?l?l?l?l?l?l'
   Buildm:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'm?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'm?l?l?l?l?l?l?l?l?l?l'
   Buildn:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'n?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'n?l?l?l?l?l?l?l?l?l?l'
   Buildo:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'o?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'o?l?l?l?l?l?l?l?l?l?l'
   Buildp:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'p?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'p?l?l?l?l?l?l?l?l?l?l'
   Buildq:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'q?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'q?l?l?l?l?l?l?l?l?l?l'
   Buildr:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '57c4fb8ea:00000000' 'r?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O '5b8b1a1c7983257a7c2ce77c6d28f417b' 'r?l?l?l?l?l?l?l?l?l?l'
   Builds:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 's?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 's?l?l?l?l?l?l?l?l?l?l'
   Buildt:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 't?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 't?l?l?l?l?l?l?l?l?l?l'
   Buildu:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'u?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'u?l?l?l?l?l?l?l?l?l?l'
   Buildv:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'v?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'v?l?l?l?l?l?l?l?l?l?l'
   Buildw:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'w?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'w?l?l?l?l?l?l?l?l?l?l'
   Buildx:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'x?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'x?l?l?l?l?l?l?l?l?l?l'
   Buildy:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'y?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'y?l?l?l?l?l?l?l?l?l?l'
   Buildz:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo apt install hashcat && hashcat -m 11500 -a 3 -w 4 -O '7c4fb8ea:00000000' 'z?l?l?l?l?l?l?l?l?l?l'
+    - run: sudo apt install hashcat && hashcat -m 0 -a 3 -w 4 -O 'b8b1a1c7983257a7c2ce77c6d28f417b' 'z?l?l?l?l?l?l?l?l?l?l'
     
