@@ -6,8 +6,8 @@ int main(int argc, char* argv[]){
     str[0] = argv[1][0], en[0] = argv[1][0];
     while(str!=en){
         FILE* fp;
-        if ((fp = popen((std::string("echo -n ")+str+" | md5sum").c_str(), "r"))==NULL){
-            cerr << "faild md5sum" << endl;
+        if ((fp = popen((std::string("php -r `$c = crc32(\"")+str+"\"); printf(\"%%x\n\", $c);").c_str(), "r"))==NULL){
+            cerr << "faild crc32" << endl;
             exit(EXIT_FAILURE);
         }
         char buf[1024]; std::string res;
