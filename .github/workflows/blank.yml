@@ -16,62 +16,173 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
-    # Ubuntuの最新版環境内で処理を実行することを指定
+  builda:
     runs-on: ubuntu-latest
-
-    # 実行する処理＆コマンド指定
     steps:
       - uses: actions/checkout@v2
+      - name: a
         run: g++ md.cpp && ./a.out a b8b1a1c7983257a7c2ce77c6d28f417b
+  buildb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: b
         run: g++ md.cpp && ./a.out b b8b1a1c7983257a7c2ce77c6d28f417b
+  buildc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: c
         run: g++ md.cpp && ./a.out c b8b1a1c7983257a7c2ce77c6d28f417b
+  buildd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: d
         run: g++ md.cpp && ./a.out d b8b1a1c7983257a7c2ce77c6d28f417b
+  builde:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: e
         run: g++ md.cpp && ./a.out e b8b1a1c7983257a7c2ce77c6d28f417b
+  buildf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: f
         run: g++ md.cpp && ./a.out f b8b1a1c7983257a7c2ce77c6d28f417b
+  buildg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: g
         run: g++ md.cpp && ./a.out g b8b1a1c7983257a7c2ce77c6d28f417b
+  buildh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: h
         run: g++ md.cpp && ./a.out h b8b1a1c7983257a7c2ce77c6d28f417b
+  buildi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: i
         run: g++ md.cpp && ./a.out i b8b1a1c7983257a7c2ce77c6d28f417b
+  buildj:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: j
         run: g++ md.cpp && ./a.out j b8b1a1c7983257a7c2ce77c6d28f417b
+  buildk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: k
         run: g++ md.cpp && ./a.out k b8b1a1c7983257a7c2ce77c6d28f417b
+  buildl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: l
         run: g++ md.cpp && ./a.out l b8b1a1c7983257a7c2ce77c6d28f417b
+  buildm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: m
         run: g++ md.cpp && ./a.out m b8b1a1c7983257a7c2ce77c6d28f417b
+  buildn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: n
         run: g++ md.cpp && ./a.out n b8b1a1c7983257a7c2ce77c6d28f417b
+  buildo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: o
         run: g++ md.cpp && ./a.out o b8b1a1c7983257a7c2ce77c6d28f417b
+  buildp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: p
         run: g++ md.cpp && ./a.out p b8b1a1c7983257a7c2ce77c6d28f417b
+  buildq:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: q
         run: g++ md.cpp && ./a.out q b8b1a1c7983257a7c2ce77c6d28f417b
+  buildr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: r
         run: g++ md.cpp && ./a.out r b8b1a1c7983257a7c2ce77c6d28f417b
+  builds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: s
         run: g++ md.cpp && ./a.out s b8b1a1c7983257a7c2ce77c6d28f417b
+  buildt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: t
         run: g++ md.cpp && ./a.out t b8b1a1c7983257a7c2ce77c6d28f417b
+  buildu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: u
         run: g++ md.cpp && ./a.out u b8b1a1c7983257a7c2ce77c6d28f417b
+  buildv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: v
         run: g++ md.cpp && ./a.out v b8b1a1c7983257a7c2ce77c6d28f417b
+  buildw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: w
         run: g++ md.cpp && ./a.out w b8b1a1c7983257a7c2ce77c6d28f417b
+  buildx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: x
         run: g++ md.cpp && ./a.out x b8b1a1c7983257a7c2ce77c6d28f417b
+  buildy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: y
         run: g++ md.cpp && ./a.out y b8b1a1c7983257a7c2ce77c6d28f417b
+  buildz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: z
         run: g++ md.cpp && ./a.out z b8b1a1c7983257a7c2ce77c6d28f417b
+
+
+
+
+
+
+
+
+
+
+
+
+
 
