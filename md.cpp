@@ -6,7 +6,7 @@ int main(int argc, char* argv[]){
     str[0] = argv[1][0], en[0] = argv[1][0];
     while(str!=en){
         FILE* fp;
-        if ((fp = popen((std::string("php -r `$c = crc32(\"")+str+"\"); printf(\"%%x\n\", $c);`").c_str(), "r"))==NULL){
+        if ((fp = popen((std::string("php -r 'printf(\"%x\\n\", crc32(\"")+str+"\"));' 2> /dev/null").c_str(), "r"))==NULL){
             cerr << "faild crc32" << endl;
             exit(EXIT_FAILURE);
         }
