@@ -13,7 +13,7 @@ int main(int argc, char* argv[]){
         char buf[1024]; std::string res;
         fgets(buf, sizeof(buf), fp),res = buf;
         for (int i(0);i < res.size();++i){
-            if (res[i]==' '){res.resize(i);break;}
+            if (res[i]==' '||res[i]=='\n'){res.resize(i);break;}
         }
         pclose(fp);
         if (res==in) cout << str << endl;
