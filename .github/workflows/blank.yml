@@ -21,157 +21,157 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: a
-        run: g++ md.cpp && ./a.out a b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out a 7c4fb8ea
   buildb:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: b
-        run: g++ md.cpp && ./a.out b b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out b 7c4fb8ea
   buildc:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: c
-        run: g++ md.cpp && ./a.out c b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out c 7c4fb8ea
   buildd:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: d
-        run: g++ md.cpp && ./a.out d b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out d 7c4fb8ea
   builde:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: e
-        run: g++ md.cpp && ./a.out e b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out e 7c4fb8ea
   buildf:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: f
-        run: g++ md.cpp && ./a.out f b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out f 7c4fb8ea
   buildg:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: g
-        run: g++ md.cpp && ./a.out g b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out g 7c4fb8ea
   buildh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: h
-        run: g++ md.cpp && ./a.out h b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out h 7c4fb8ea
   buildi:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: i
-        run: g++ md.cpp && ./a.out i b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out i 7c4fb8ea
   buildj:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: j
-        run: g++ md.cpp && ./a.out j b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out j 7c4fb8ea
   buildk:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: k
-        run: g++ md.cpp && ./a.out k b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out k 7c4fb8ea
   buildl:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: l
-        run: g++ md.cpp && ./a.out l b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out l 7c4fb8ea
   buildm:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: m
-        run: g++ md.cpp && ./a.out m b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out m 7c4fb8ea
   buildn:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: n
-        run: g++ md.cpp && ./a.out n b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out n 7c4fb8ea
   buildo:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: o
-        run: g++ md.cpp && ./a.out o b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out o 7c4fb8ea
   buildp:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: p
-        run: g++ md.cpp && ./a.out p b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out p 7c4fb8ea
   buildq:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: q
-        run: g++ md.cpp && ./a.out q b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out q 7c4fb8ea
   buildr:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: r
-        run: g++ md.cpp && ./a.out r b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out r 7c4fb8ea
   builds:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: s
-        run: g++ md.cpp && ./a.out s b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out s 7c4fb8ea
   buildt:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: t
-        run: g++ md.cpp && ./a.out t b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out t 7c4fb8ea
   buildu:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: u
-        run: g++ md.cpp && ./a.out u b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out u 7c4fb8ea
   buildv:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: v
-        run: g++ md.cpp && ./a.out v b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out v 7c4fb8ea
   buildw:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: w
-        run: g++ md.cpp && ./a.out w b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out w 7c4fb8ea
   buildx:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: x
-        run: g++ md.cpp && ./a.out x b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out x 7c4fb8ea
   buildy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: y
-        run: g++ md.cpp && ./a.out y b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out y 7c4fb8ea
   buildz:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: z
-        run: g++ md.cpp && ./a.out z b8b1a1c7983257a7c2ce77c6d28f417b
+        run: g++ -O2 md.cpp && ./a.out z 7c4fb8ea
 
 
 
