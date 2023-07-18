@@ -15,6 +15,7 @@ int main(int argc, char* argv[]){
         for (int i(0);i < res.size();++i){
             if (res[i]==' '){res.resize(i);break;}
         }
+        pclose(fp);
         if (res==in) cout << str << endl;
         auto it = str.rbegin();
         for (decltype(it) e = str.rend();it!=e;++it){
