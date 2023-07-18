@@ -23,7 +23,6 @@ jobs:
     # 実行する処理＆コマンド指定
     steps:
       - uses: actions/checkout@v2
-      - name: a
         run: g++ md.cpp && ./a.out a b8b1a1c7983257a7c2ce77c6d28f417b
       - name: b
         run: g++ md.cpp && ./a.out b b8b1a1c7983257a7c2ce77c6d28f417b
