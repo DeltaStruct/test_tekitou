@@ -23,107 +23,56 @@ jobs:
     # 実行する処理＆コマンド指定
     steps:
       - uses: actions/checkout@v2
-  name: a
-    steps:
-    - run: g++ md.cpp && ./a.out a b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildb:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out b b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildc:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out c b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildd:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out d b8b1a1c7983257a7c2ce77c6d28f417b
-  Builde:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out e b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildf:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out f b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildg:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out g b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildh:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out h b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildi:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out i b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildj:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out j b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildk:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out k b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildl:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out l b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildm:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out m b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildn:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out n b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildo:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out o b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildp:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out p b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildq:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out q b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildr:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out r b8b1a1c7983257a7c2ce77c6d28f417b
-  Builds:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out s b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildt:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out t b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildu:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out u b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildv:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out v b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildw:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out w b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildx:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out x b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildy:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out y b8b1a1c7983257a7c2ce77c6d28f417b
-  Buildz:
-    runs-on: ubuntu-latest
-    steps:
-    - run: g++ md.cpp && ./a.out z b8b1a1c7983257a7c2ce77c6d28f417b
-  
+      - name: a
+        run: g++ md.cpp && ./a.out a b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: b
+        run: g++ md.cpp && ./a.out b b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: c
+        run: g++ md.cpp && ./a.out c b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: d
+        run: g++ md.cpp && ./a.out d b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: e
+        run: g++ md.cpp && ./a.out e b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: f
+        run: g++ md.cpp && ./a.out f b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: g
+        run: g++ md.cpp && ./a.out g b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: h
+        run: g++ md.cpp && ./a.out h b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: i
+        run: g++ md.cpp && ./a.out i b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: j
+        run: g++ md.cpp && ./a.out j b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: k
+        run: g++ md.cpp && ./a.out k b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: l
+        run: g++ md.cpp && ./a.out l b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: m
+        run: g++ md.cpp && ./a.out m b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: n
+        run: g++ md.cpp && ./a.out n b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: o
+        run: g++ md.cpp && ./a.out o b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: p
+        run: g++ md.cpp && ./a.out p b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: q
+        run: g++ md.cpp && ./a.out q b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: r
+        run: g++ md.cpp && ./a.out r b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: s
+        run: g++ md.cpp && ./a.out s b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: t
+        run: g++ md.cpp && ./a.out t b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: u
+        run: g++ md.cpp && ./a.out u b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: v
+        run: g++ md.cpp && ./a.out v b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: w
+        run: g++ md.cpp && ./a.out w b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: x
+        run: g++ md.cpp && ./a.out x b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: y
+        run: g++ md.cpp && ./a.out y b8b1a1c7983257a7c2ce77c6d28f417b
+      - name: z
+        run: g++ md.cpp && ./a.out z b8b1a1c7983257a7c2ce77c6d28f417b
+
