@@ -23,7 +23,7 @@ jobs:
     # 実行する処理＆コマンド指定
     steps:
       - uses: actions/checkout@v2
-  Builda:
+  name: a
     runs-on: ubuntu-latest
     steps:
     - run: g++ md.cpp && ./a.out a b8b1a1c7983257a7c2ce77c6d28f417b
