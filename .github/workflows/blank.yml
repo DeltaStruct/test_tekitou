@@ -24,7 +24,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
   name: a
-    runs-on: ubuntu-latest
     steps:
     - run: g++ md.cpp && ./a.out a b8b1a1c7983257a7c2ce77c6d28f417b
   Buildb:
